@@ -1,0 +1,160 @@
+
+$small-subtitle-color: #E34F26;
+$small-screen-width: 500px;
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+	font-size:12px;
+}
+
+body {
+	background:#444;
+    font-family: 'Roboto', sans-serif;
+	line-height: 2em;
+}
+
+#debug {
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1000;
+	background:#F0F0F0;
+	min-height:50px;
+}
+
+
+h1 {
+	font-size:30px;
+	color:#444;
+	margin-bottom:0px;
+}
+
+h1 small {
+	color: $small-subtitle-color;
+	font-size:0.4em;
+	text-transform: uppercase;
+}
+
+.margin-top-small {
+	margin-top:15px;
+}
+
+#scrolling-content {
+	position:relative;
+	padding-top:40px;
+	margin-top:450px;
+	background-color:#FFF;
+}
+
+.content-zone {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#prestations ul {
+	list-style: none;
+	padding-left:0;
+}
+
+#prestations ul li {
+	line-height:1.5em;
+	padding:10px;
+	border-bottom: solid 2px #EEE;
+}
+
+#prestations .minor {
+	color:#CCC;
+}
+
+#prestations .highlight {
+}
+
+#prestations .illustration {
+	width:100%;
+	margin: 0 auto;
+	display:block;
+	padding-top:50px;
+	opacity:1;
+}
+
+#profile {
+	background: rgba(255,255,255,0.8);
+}
+
+.profile-container {
+	border-top:solid 1px #444;
+	border-bottom:solid 1px #444;
+	background: url('/pictures/smart-city-background.jpg') 50% center;
+}
+
+/* Parrallax effect not used on mobile phones for performance */
+@media only screen and (min-width: 1024px) {
+	.profile-container {
+		background-attachment: fixed;
+	}
+}
+
+.recommandations .reco {
+	padding-top:10px;
+	display:block;
+}
+
+@media only screen and (max-width: $small-screen-width) {
+	.recommandations .reco {
+		margin-left:20px;
+	}
+}
+
+.recommandations .reco:before {
+	content: "//";
+	font-size:40px;
+	position:absolute;
+	left:-15px;
+	color:#E34F26;
+}
+
+@media only screen and (max-width: $small-screen-width) {
+	.recommandations .reco:before {
+		left:0;
+	}
+}
+
+.recommandations .recommender {
+	display:block;
+	margin-top:10px;
+	font-size:11px;
+	font-weight:bold;
+}
+
+@media only screen and (max-width: $small-screen-width) {
+	.recommandations .recommender {
+		margin-left:20px;
+	}
+}
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+}
+
+#map {
+	width:100%;
+	height:300px;
+	border: solid 1px #444;
+}
+
+#footer {
+	background:#444;
+	color:white;
+	border-top:solid 4px #888;
+	font-size:11px;
+}
+

@@ -1,0 +1,84 @@
+
+.navbar {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+	background:#E34F26;
+	border: solid 1px #444;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:white;
+	transition: all 0.5s ease;
+	cursor:pointer;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+	color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0,0.5);
+	color:white;
+}
+
+.topbar {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:100;
+}
+
+.share-label {
+	color:white;
+	float:left;
+	padding-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	text-transform: uppercase;
+}
+
+.share-links {
+	float:left;
+}
+
+.share-links a {
+	display:block;
+	text-decoration: none;
+	cursor:pointer;
+	float:left;
+	margin-right:5px;
+}
+
+.share-links [class^=socicon-] {
+	color:white;
+	padding-top:5px;
+	padding-left:10px;
+	width:35px;
+	height:35px;
+	margin-top:7px;
+	border-radius:50%;
+	transition:all 0.3s ease;
+}
+
+.share-links [class^=socicon-]:hover {
+	background:rgba(255,255,255,0.2);
+}
+
+.share-links .socicon-facebook {
+	background:#3E5B98;
+}
+
+.share-links .socicon-twitter {
+	background:#4DA7DE;
+}
+
+.share-links .socicon-googleplus {
+	background:#DD4B39;
+}

@@ -1,0 +1,99 @@
+
+.contact-icon {
+	display:block;
+	float:left;
+	border-radius:50%;
+	background:gray;
+	color:white;
+	width:40px;
+	height:40px;
+	font-size:22px;
+	padding-left:9px;
+	padding-top:9px;
+	margin-right:10px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: all 0.3s ease;
+}
+
+.contact-group:hover .contact-icon {
+	transform: scale(1.2,1.2);
+}
+
+.socicon-mail {background:#000;}
+.contact-text-mail {color: #000;}
+
+/* Mobile phone, actually... */
+.socicon-viber {background:#000;}
+.contact-text-viber {color: #000;}
+
+.socicon-skype {background:#28ABE3;}
+.contact-text-skype {color: #28ABE3;}
+
+.socicon-linkedin {background:#3371B7;}
+.contact-text-linkedin {color: #3371B7;}
+
+.socicon-viadeo {background:#E4A000;}
+.contact-text-viadeo {color: #E4A000;}
+
+.socicon-stackoverflow {background:#FD9827;}
+.contact-text-stackoverflow {color: #FD9827;}
+
+#contact .identity {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#contact .name {
+	font-size:25px;
+	font-weight: bold;
+	color:#E34F26;
+}
+
+#contact .job {
+	font-weight:bold;
+}
+
+#contact .map {
+	border:solid 1px #444;
+}
+
+.contact-groups {
+	margin-bottom:30px;
+}
+
+.contact-group {
+	overflow:hidden;
+	padding:5px;
+}
+
+.contact-group a {
+	text-decoration: none;
+	color:inherit;
+}
+
+.contact-group a:hover {
+	color:#E34F26;
+}
+
+[class^=contact-text-] {
+	display:block;
+	float:left;
+	font-size:14px;
+	margin-top:5px;
+}
+
+#contact .resume {
+	display:block;
+	padding:5px;
+	background:green;
+	text-align:center;
+	color:white;
+	border:solid 3px #E34F26;
+	background:rgba(227, 79, 38, 0.8);
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+#contact .resume:hover {
+	background:rgba(227, 79, 38, 1);
+}

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Ingénieur en Informatique Mobile et Embarquée - Freelance - Benjamin PIETTE</title>
+    <meta name="description" content="Ingénieur expérimenté en informatique mobile et embarquée - Freelance - Développement, Audit, Conseil" />
+    <meta name="keywords" content="application mobile, android, ios, ionic, php, laraval, développeur, ingénieur, développement, informatique, freelance, audit, conseil, consultant, Lyon, Caluire, Rhône" />
+	<meta property="og:title" content="Ingénieur en Informatique Mobile et Embarquée - Freelance - Benjamin PIETTE" />
+	<meta property="og:url" content="http://www.benjamin-piette.com" />
+    <meta property="og:image" content="http://www.benjamin-piette.com/pictures/share-preview.jpg"/>
+	<meta property="og:description" content="Ingénieur expérimenté en informatique mobile et embarquée - Freelance - Développement, Audit, Conseil -Disponible sur Lyon ou en télé-travail" />
+    <meta name="author" content="Benjamin PIETTE" />
+	
+	<!-- Third party CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Third party libraries -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzQnJTWfBxPWXFMMTnogy7sGIaKrvFChs"></script>
+	
+	<!-- App libraries -->
+	<script src="app.bundle.js" charset="utf-8"></script>
+</head>
+<body>
+	
+	
+	<div id="intro">
+		<div class="container">
+			<div id="search-anim-container">
+									
+				<div id="abilities1"></div>
+				<div id="typing-zone">&gt; <span id="typed-zone"></span></div>
+				<div id="search-in-progress">Recherche en cours <span id="dots"></span></div>
+				<div id="googule" class="hidden-xs"></div>
+				<div id="search-result">
+					<div class="firstname">Benjamin PIETTE</div>
+					<div class="profile-items-container">
+						<div class="row">
+							<div class="col-md-2 col-sm-2 hidden-xs"><span class="label">Titre</span></div>
+							<div class="col-md-10 col-sm-10 col-xs-12"><span class="profile-item">Ingénieur en Informatique Freelance</span></div>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-sm-2 hidden-xs"><span class="label">Formation</span></div>
+							<div class="col-md-10 col-sm-10 col-xs-12"><span class="profile-item">Master en Informatique embarquée <span class="hidden-xs">BAC +5</span></span></div>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-sm-2 hidden-xs"><span class="label">Expérience</span></div>
+							<div class="col-md-10 col-sm-10 hidden-xs"><span class="profile-item">11 ans</span></div>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-sm-2 hidden-xs"><span class="label">Domaines</span></div>
+							<div class="col-md-10 col-sm-10 col-xs-12"><span class="profile-item">Applications mobiles natives / Back-end / IoT</span></div>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-sm-2 hidden-xs"><span class="label">Localisation</span></div>
+							<div class="col-md-10 col-sm-10 hidden-xs"><span class="profile-item">Disponible sur le grand LYON, ou en télé-travail</span></div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-6">
+							<a class="button button-hire nav-link" data-link="contact">Me contacter</a>
+						</div>
+						<div class="col-sm-6 hidden-xs">
+							<a class="button button-hire" href="/documents/CV_Benjamin_PIETTE_Jan_2017_FR.pdf" target="_blank">Télécharger mon CV</a>
+						</div>
+					</div>
+					
+					<img src="/pictures/benjamin-piette.png" class="profile-picture"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="scrolling-content">
+		
+		<nav id="navbar" class="navbar navbar-default">
+			<div class="container navbar-container">
+			  <!--<div class="navbar-header">
+				<a class="navbar-brand" href="#"></a>
+			  </div>-->
+		  
+			  <div class="">
+				<ul class="nav navbar-nav nav-links hidden-xs hidden-sm">
+					<li><a class="nav-link" data-link="home">Accueil</a></li>
+					<li><a class="nav-link" data-link="prestations">Prestations</a></li>
+					<li><a class="nav-link" data-link="profile">Profil</a></li>
+					<li><a class="nav-link" data-link="skills">Compétences</a></li>
+					<li><a class="nav-link" data-link="portfolio">Réalisations</a></li>
+					<li><a class="nav-link" data-link="contact">Contact</a></li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<div class="share-label">Partager</div>
+					<div class="share-links">
+						<a class="socicon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.benjamin-piette.com" target="_blank"></a>
+						<a class="socicon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.benjamin-piette.com&title=Ing%C3%A9nieur%20en%20informatique%20mobile%20et%20embarqu%C3%A9e%20freelance&summary=&source=" target="_blank"></a>
+						<a class="socicon-twitter" href="https://twitter.com/home?status=D%C3%A9veloppeur%20mobile/embarqu%C3%A9%20freelance%20sur%20Lyon%3A%20http%3A//www.benjamin-piette.com" target="_blank"></a>
+						<a class="socicon-googleplus" href="https://plus.google.com/share?url=http%3A//www.benjamin-piette.com"target="_blank"></a>
+					</div>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+	
+		<div id="prestations" class="">
+			<div class="container content-zone">
+				<h1>Prestations | <small class="hidden-xs">Ce que je peux vous apporter</small></h1>
+				<div class="row">
+					<div class="col-md-5">
+						<ul>
+							<li>Développement <span class="highlight">applications mobile</span> natif (android, iOS)</li>
+							<li>Développement <span class="highlight">back-end</span> (PHP)</li>
+							<li>Développement <span class="highlight">embarqué/IoT</span> (C, Java)</li>
+							<li class="minor">Développement front-end (jQuery, Angular)</li>
+							<li class="minor">Développement mobile hybride (Ionic)</li>
+						</ul>
+					</div>
+					<div class="col-md-2 hidden-xs hidden-sm">
+						<img src="/pictures/prestations.jpg" class="illustration"/>
+					</div>
+					<div class="col-md-5">
+						<ul>
+							<li>Vision globale produit et analyse des besoins</li>
+							<li>Spécification des solutions</li>
+							<li>Choix des technologies</li>
+							<li>Suivi des projets</li>
+							<li>Support clients</li>
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+		</div> 
+		
+		<div class="profile-container ">
+			<div class="container content-zone" id="profile">
+				<h1>Profil | <small class="hidden-xs">Qui je suis</small></h1>
+				<p>
+					<p>
+						Ingénieur en <b>informatique embarquée</b> de formation, j'évolue dans le domaine des <b>middleware et applications mobiles</b>. Créateur et développeur du site Make me Droid (150k+ inscrits), j'ai eu l'occasion de développer sur de nombreuses <b>technologies mobiles, front-end et back-end</b>.
+					</p>
+					<p>
+						J'ai depuis longtemps souhaité pouvoir associer le monde des <b>applications mobiles</b> et celui de l'<b>embarqué</b>, et c'est aujourd'hui chose faite grâce à l'<b>internet des objets (IoT)</b>.
+					</p>
+					<p>
+					Mes différentes activités et lieux de vie m'ont permis de travailler depuis plusieurs années dans des <b>environnements internationaux</b>, et d'être au <b>contact des clients</b>.
+					</p>
+					<p>
+					J'ai une <b>vision globale</b> des choses, <b>j'aime créer</b> et malgré mon statut de freelance, mon environnement de prédilection est <b>au sein d'une équipe qui échange</b> des idées pour avancer. 
+					</p>
+				</p>
+			</div>
+		</div>
+		
+		<div class="container content-zone" id="skills">
+			<h1>Compétences | <small class="hidden-xs">Plus en détails</small></h1>
+			<div class="row margin-top-small">
+				<div class="col-lg-6 skills-container tech-container">
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+							<figure class="chart tech" data-percent="50">
+								<figcaption>Techniques</figcaption>
+								<svg>
+									<circle class="outer" cx="98" cy="98" r="84" transform="rotate(-90, 95, 95)"/>
+								</svg>
+							</figure>
+						</div>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
+							<span class="skill">Android (Java)</span>
+							<span class="skill">iOS (Objective-C)</span>
+
+							<span class="skill">PHP</span>
+							<span class="skill">Laravel</span>
+							<span class="skill">MySQL</span>
+
+							<span class="skill">C</span>
+							<span class="skill">Contraintes de l'embarqué</span>
+							
+							<span class="skill">Angular</span>
+							<span class="skill">jQuery</span>
+							<span class="skill">Bootstrap</span>
+							<span class="skill">HTML5</span>
+							<span class="skill">CSS3</span>
+							<span class="skill">Ajax</span>
+							
+							<span class="skill">Ionic</span>
+							
+							<span class="skill">Java</span>
+							<span class="skill">Redis</span>
+							<span class="skill">MongoDB</span>
+							<span class="skill">Emailing</span>
+							<span class="skill">Paiements</span>
+							
+							<span class="skill">REST API</span>
+							<span class="skill">OAuth</span>
+							<span class="skill">Websockets</span>
+							
+							<span class="skill">Serveurs linux</span>
+							<span class="skill">Docker</span>
+							
+							<span class="skill">Versionning (Git)</span>
+							<span class="skill">Android Studio</span>
+							<span class="skill">XCode</span>
+							
+							<span class="skill">SEO</span>
+							<span class="skill">Automatisation des réseaux sociaux</span>
+							
+							<span class="skill">Photoshop</span>
+							<span class="skill">Illustrator</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 skills-container manage-container">
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+							<figure class="chart manage" data-percent="50">
+								<figcaption>Analytiques</figcaption>
+								<svg>
+									<circle class="outer" cx="98" cy="98" r="84" transform="rotate(-90, 95, 95)"/>
+								</svg>
+							</figure>
+						</div>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
+							<span class="skill">Force de proposition technique pour un besoin commercial</span>
+							<span class="skill">Force de proposition stratégique pour un nouveau produit</span>
+							<span class="skill">Conversion du besoin commercial en projet technique
+	</span>
+							<span class="skill">Recherche de technologies et de partenaires techniques
+	</span>
+							<span class="skill">Stratégie de déploiement des produits
+	</span>
+							<span class="skill">Analyse des forces et faiblesses d’un produit existant
+	</span>
+							<span class="skill">Efficacité dans la recherche de bugs
+</span>
+							<span class="skill">Brainstorming</span>
+
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row margin-top-small">
+				<div class="col-lg-6 skills-container customer-container">
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+							<figure class="chart customer" data-percent="50">
+								<figcaption>Clients</figcaption>
+								<svg>
+									<circle class="outer" cx="98" cy="98" r="84" transform="rotate(-90, 95, 95)"/>
+								</svg>
+							</figure>
+						</div>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
+							<span class="skill">Discussions, compréhension, filtrage des besoins avec les clients</span>
+							<span class="skill">Conversion des besoins clients en fonctionnalités produits</span>
+							<span class="skill">Formation des clients aux produits</span>
+							<span class="skill">Recueil des problèmes utilisateurs, filtrage et conversion en solutions</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 skills-container self-container">
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+							<figure class="chart self" data-percent="50">
+								<figcaption>Personnelles</figcaption>
+								<svg>
+									<circle class="outer" cx="98" cy="98" r="84" transform="rotate(-90, 95, 95)"/>
+								</svg>
+							</figure>
+						</div>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
+							<span class="skill">Esprit analytique</span>
+							<span class="skill">Vision globale</span>
+							<span class="skill">Créativité technique</span>
+							<span class="skill">Qualité rédactionnelle / synthétique / communicationnelle</span>
+							<span class="skill">Anglais B2/C1</span>
+							<span class="skill">Travail en équipe</span>
+							<span class="skill">Force de proposition</span>
+							<span class="skill">Adaptabilité rapide aux nouveaux concepts/technologies</span>
+							<span class="skill">Esprit entreprenarial</span>
+							<span class="skill">Goût du challenge technique</span>
+							<span class="skill">Habitué aux environnement internationaux / clients internationaux</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="container" id="portfolio">
+			
+		</div>
+		
+		<div class="portfolio">
+			<h1>Réalisations</h1>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Make me Droid</div>
+						<div class="description">Site web de création d'applications mobiles Android et iOS en ligne. Multi-casquettes (Créateur, développeur, marketing...).</div>
+						<div class="tags">
+							<span class="tag">150k utilisateurs</span>
+							<span class="tag">5 années</span>
+							<span class="tag">Android natif</span>
+							<span class="tag">iOS Objective-C</span>
+							<span class="tag">AngularJS</span>
+							<span class="tag">Simulateur Android web</span>
+							<span class="tag">Editeur complexe jQuery</span>
+							<span class="tag">Support clients</span>
+							<span class="tag">International</span>
+						</div>
+					</div>
+					<div class="image portfolio-makemedroid"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Tickets / Concerts</div>
+						<div class="description">Preuve de concept pour un ensemble applications mobiles et tableau de bord, dans le domaine de la vente de tickets.</div>
+						<div class="tags">
+							<span class="tag">Android natif</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Laravel 5</span>
+							<span class="tag">REST API</span>
+						</div>
+					</div>
+					<div class="image portfolio-credeva"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Open-plug</div>
+						<div class="description">Startup téléphonie mobile, 40 personnes, Sophia-Antipolis. Technologie composants pour middleware mobile.</div>
+						<div class="tags">
+							<span class="tag">C</span>
+							<span class="tag">Embarqué</span>
+							<span class="tag">5 années</span>
+							<span class="tag">Agile</span>
+							<span class="tag">Support clients</span>
+							<span class="tag">International</span>
+							<span class="tag">Texas Instruments</span>
+							<span class="tag">ST-Ericsson</span>
+						</div>
+					</div>
+					<div class="image portfolio-openplug"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Application santé voyageurs fréquents</div>
+						<div class="description">Application mobile pour voyageurs fréquents des companies aériennes. Tableau de bord d'administration. Preuve de concept.</div>
+						<div class="tags">
+							<span class="tag">Ionic</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Laravel 5</span>
+							<span class="tag">AngularJS</span>
+						</div>
+					</div>
+					<div class="image portfolio-enrjm"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Application réservation centres de massage</div>
+						<div class="description">Liste de salons, réservations mobiles, lien avec le central téléphonique.</div>
+						<div class="tags">
+							<span class="tag">Android natif</span>
+							<span class="tag">iOS Objective-C</span>
+							<span class="tag">PHP</span>
+							<span class="tag">REST API</span>
+						</div>
+					</div>
+					<div class="image portfolio-jvum"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Crawler d'emails et emailing</div>
+						<div class="description">Projet personnel permettant de rechercher automatiquement des emails par thème, et de lancer des campagnes d'emailing.</div>
+						<div class="tags">
+							<span class="tag">AngularJS</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Laravel 5</span>
+							<span class="tag">REST API</span>
+							<span class="tag">Ingénierie</span>
+						</div>
+					</div>
+					<div class="image portfolio-crawler"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Robot Trading Le Contact Boursier</div>
+						<div class="description">Amélioration marketing du site en partenariat avec le propriétaire, robot trading automatisé</div>
+						<div class="tags">
+							<span class="tag">Joomla</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Java</span>
+							<span class="tag">Trading</span>
+							<span class="tag">Marketing</span>
+						</div>
+					</div>
+					<div class="image portfolio-lcb"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Application Mobile: Meelo</div>
+						<div class="description">Sauvegarde des informations pratiques quotidiennes (mutuelle, RSI, école des enfants...) dans une application.</div>
+						<div class="tags">
+							<span class="tag">Android natif</span>
+							<span class="tag">Personnalisation graphique</span>
+						</div>
+					</div>
+					<div class="image portfolio-meelo"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Générateur d'histoires pour enfants</div>
+						<div class="description">Editeur en ligne permettant aux artistes de créer des histoires animées ensuite visibles sur applications mobiles. Non déployé par manque de temps.</div>
+						<div class="tags">
+							<span class="tag">AngularJS</span>
+							<span class="tag">Laravel</span>
+							<span class="tag">REST API</span>
+							<span class="tag">Ionic 2</span>
+							<span class="tag">Plugin jQuery</span>
+						</div>
+					</div>
+					<div class="image portfolio-kidsstories"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Make Geo Deals</div>
+						<div class="description">Petite régie publicitaire mobile. Utilisée par Make me Droid pour la diffusion de publicités mobiles.</div>
+						<div class="tags">
+							<span class="tag">Publicité mobile</span>
+							<span class="tag">Géo-localisation</span>
+							<span class="tag">PHP</span>
+						</div>
+					</div>
+					<div class="image portfolio-mgd"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Site personnel freelance</div>
+						<div class="description">Ce site. Page de présentation pour activité informatique freelance.</div>
+						<div class="tags">
+							<span class="tag">jQuery</span>
+							<span class="tag">CSS3</span>
+						</div>
+					</div>
+					<div class="image portfolio-freelance"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="portfolio-item">
+					<div class="info">
+						<div class="name">Site tatouage-chinois.com</div>
+						<div class="description">Petit site de vente de prestations de traductions en Chinois.</div>
+						<div class="tags">
+							<span class="tag">Responsive</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Laravel</span>
+							<span class="tag">Paiements</span>
+							<span class="tag">Back-end</span>
+						</div>
+					</div>
+					<div class="image portfolio-tatouage"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container content-zone">
+			<h1>Recommandations | <small class="hidden-xs">Soyez sympa!</small></h1>
+			<div class="row recommandations">
+				<div class="col-lg-4">
+					<span class="reco">Benjamin has a very strong technical skill. He can easily handle new technologies. He is also very proactive and always has good ideas to improve the product he is working on. Definitely he is a 'must have'.</span>
+					<span class="recommender">Remi Piro, Team Leader at Open-Plug / Alcatel-Lucent</span>
+				</div>
+				<div class="col-lg-4">
+					<span class="reco">I've had the opportunity to work with Benjamin when he was hired as an external consultant in my company, during 2005-2006. Ben was a junior engineer at that time. However, he was working like an expert, tackling multiple issues at once, understanding problems at an amazing speed, committed and tenacious, without counting his working hours. We all loved working with Ben and he was a great miss when his contract ended.</span>
+					<span class="recommender">Pascal Gaulin, Senior Product Specialist at SAP Business Objects</span>
+				</div>
+				<div class="col-lg-4">
+					<span class="reco">I led Benjamin during the development of a critical project for the company with aggressive deadlines. Benjamin demonstrated his excellent expertise on the software and his cultural awareness during the support phase on-site. Benjamin is someone reliable and creative for finding innovative solutions.</span>
+					<span class="recommender">Franck Sauvaire, Software manager at NXP semiconductors</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container content-zone" id="contact">
+			<h1>Contact | <small class="hidden-xs">C'est parti, à votre écoute</small></h1>
+			<p>Voici les différents moyens de me contacter ou de trouver plus d'informations à mon sujet. Contactez-moi pour discuter d'une mission, d'un projet.</p>
+			
+			<div id="map"></div>
+
+			<div class="identity">
+				<div class="name">Benjamin PIETTE</div>
+				<div class="job">Ingénieur en Informatique / freelance</div>
+									
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<a href="/documents/CV_Benjamin_PIETTE_Jan_2017_FR.pdf" target="_blank" class="resume">
+							<i class="fa fa-download"></i> Télécharger mon CV
+						</a>		
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row contact-groups">
+				<div class="col-sm-6">
+					<div class="contact-group">
+						<span class="contact-icon socicon-mail"></span>
+						<span class="contact-text-mail"><a href="mailto:proctar@hotmail.com">Email: proctar@hotmail.com</a></span>
+					</div>
+					<div class="contact-group">
+						<span class="contact-icon socicon-viber"></span>
+						<span class="contact-text-viber"><a href="tel:+33651342825">+33 (0)6 51 34 28 25</a></span>
+					</div>
+					<div class="contact-group">
+						<span class="contact-icon socicon-skype"></span>
+						<span class="contact-text-skype"><a href="skype:benjamin.piette?add">Skype: benjamin.piette</a></span>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="contact-group">
+						<span class="contact-icon socicon-linkedin"></span>
+						<span class="contact-text-linkedin"><a href="https://fr.linkedin.com/in/benjamin-piette-9899b52" target="_blank">LinkedIn</a></span>
+					</div>
+					<div class="contact-group">
+						<span class="contact-icon socicon-viadeo"></span>
+						<span class="contact-text-viadeo"><a href="http://www.viadeo.com/p/00220sj0um1ziswd" target="_blank">Viadeo</a></span>
+					</div>
+					<div class="contact-group">
+						<span class="contact-icon socicon-stackoverflow"></span>
+						<span class="contact-text-stackoverflow"><a href="http://stackoverflow.com/users/924939/benjamin-piette" target="_blank">Stack Overflow</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="container">
+			Copyright ©2017 Benjamin Piette - SIRET N° 53992993500028
+			</div>
+			
+		</div>
+	</div>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  
+		ga('create', 'UA-11228220-7', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+
+.portfolio {
+	background:#444;
+	overflow:hidden;
+}
+
+.portfolio h1 {
+	text-align:center;
+	color:white;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+
+.portfolio .portfolio-item {
+	cursor:pointer;
+	border:solid 4px rgba(255,255,255,0.5);
+	margin:10px;
+	overflow:hidden;
+}
+
+.portfolio .portfolio-item:hover .info {
+	opacity: 1;
+}
+
+.portfolio .portfolio-item:hover .image {
+	transform: scale(1.1,1.1);
+}
+
+.portfolio-item .info {
+	opacity: 0;
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	text-align:center;
+	background:rgba(0,0,0,0.6);
+	transition: all 1s ease;
+	color:white;
+	z-index:10;
+}
+
+.portfolio-item .name {
+	font-weight:bold;
+}
+
+.portfolio-item .description {
+	font-size:11px;
+}
+
+.portfolio-item .image {
+	height:200px;
+	transition:all 0.5s ease;
+}
+
+.portfolio-item .tag {
+	margin:5px;
+}
+
+.portfolio-item .tag {
+	background:#E34F26;
+	color:white;
+	font-size:11px;
+	padding:3px;
+	margin-left:2px;
+}
+
+.portfolio .portfolio-makemedroid {
+	background: url('/pictures/portfolio/makemedroid.jpg') 50% center;
+}
+
+.portfolio .portfolio-credeva {
+	background: url('/pictures/portfolio/credeva.jpg') 50% center;
+}
+
+.portfolio .portfolio-openplug {
+	background: url('/pictures/portfolio/openplug.jpg') 50% center;
+}
+
+.portfolio .portfolio-enrjm {
+	background: url('/pictures/portfolio/enrjm.jpg') 20% 60%;
+}
+
+.portfolio .portfolio-jvum {
+	background: url('/pictures/portfolio/jvum2.jpg') 0% 10%;
+}
+
+.portfolio .portfolio-crawler {
+	background: url('/pictures/portfolio/emailcrawler.jpg') 0% 10%;
+}
+
+.portfolio .portfolio-lcb {
+	background: url('/pictures/portfolio/lcb.jpg') 0% 10%;
+}
+
+.portfolio .portfolio-meelo {
+	background: url('/pictures/portfolio/meelo.jpg') 0% 0%;
+}
+
+.portfolio .portfolio-kidsstories {
+	background: url('/pictures/portfolio/kidsstories.jpg') 0% 0%;
+}
+
+.portfolio .portfolio-mgd {
+	background: url('/pictures/portfolio/mgd.jpg') 0% 0%;
+}
+
+.portfolio .portfolio-freelance {
+	background: url('/pictures/portfolio/freelance.jpg') 0% 0%;
+}
+
+.portfolio .portfolio-tatouage {
+	background: url('/pictures/portfolio/tatouage.jpg') 10% 60%;
+}

@@ -1,0 +1,147 @@
+
+.chart {
+  position: relative;
+  display: inline-block;
+  color: #999;
+  font-size: 20px;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.chart figcaption {
+  width: 190px;
+  height: 190px;
+  padding-top:50px;
+  border: 20px solid #f0f0f0;
+  border-radius: 100px;
+  line-height: 50px;
+  transition: all 1s ease;
+  font-size:14px;
+  text-transform: uppercase;
+}
+
+.chart img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.tech svg .outer {
+	stroke: #e34f26;
+}
+
+.tech figcaption {
+	color: #e34f26;
+}
+
+.tech-container:hover figcaption {
+	color: #e34f26;
+	font-size:16px;
+}
+
+.manage svg .outer {
+	stroke: #e34f26;
+}
+
+.manage figcaption {
+	color: #e34f26;
+}
+
+.manage-container:hover figcaption {
+	font-size:16px;
+}
+
+.customer svg .outer {
+	stroke: #e34f26;
+}
+
+.customer figcaption {
+	color: #e34f26;
+}
+
+.customer-container:hover figcaption {
+	color: #e34f26;
+	font-size:16px;
+}
+
+.self svg .outer {
+	stroke: #e34f26;
+}
+
+.self figcaption {
+	color: #e34f26;
+}
+
+.self-container:hover figcaption {
+	color: #e34f26;
+	font-size:16px;
+}
+
+.chart svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:200px;
+  height:200px;
+}
+
+.outer {
+  fill: transparent;
+  stroke: #333;
+  stroke-width: 20;
+  stroke-dasharray: 534;
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+  
+  /* firefox bug fix - won't rotate at 90deg angles */
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+.skills-container:hover .chart .outer {
+  stroke-dashoffset: 0 !important;
+  -webkit-animation-play-state: paused;
+}
+
+.chart[data-percent='100'] .outer {
+  stroke-dashoffset: 537;
+  -webkit-animation: show100 2s;
+  animation: show100 2s;
+}
+
+.chart[data-percent='50'] .outer {
+  stroke-dashoffset: 267;
+  -webkit-animation: show50 2s;
+  animation: show50 2s;
+}
+
+@keyframes show100 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 267;
+  }
+}
+
+#skills .skill {
+	font-size:11px;
+	margin:2px;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius: 5px;
+	display:inline-block;
+	color:#000;
+	background:#EEE;
+}
