@@ -126,11 +126,9 @@ function SearchAnimation()
 
 jQuery(document).ready(function()
 {
-	var animated
-	
 	var searchAnimation = new SearchAnimation;
 	
-	// BUild our list of typed messages and associated skills
+	// Build our list of typed messages and associated skills
 	searchAnimation.addMessage("Je recherche un développeur d'<b>applications mobiles natives</b>", ["Développeur informatique","Android", "iOS"], [500, 1500, 2000]);
 	searchAnimation.addMessage("Profil <b>full-stack</b>, larges connaissances informatiques", ["Front-end (un peu)","Back-end", "Embarqué"], [500, 1000, 1500]);
 	searchAnimation.addMessage("Souhaitant si possible travailler sur les <b>objets connectés</b>", ["Objets connectés", "IoT"], [1000, 1500]);
